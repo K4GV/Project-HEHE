@@ -3,31 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task-1</title>
+    <title>Registration Form</title>
 </head>
-<body>  
-<h1>
-    LITERATURE
-</h1>
-<p> 
-    It is amazing how easy it is for one can easily build a whole new world using books.
-    Yet, it is sad that some haven't discovered the magic of getting lost within the pages.
-    It is said that a reader has lived a thousand lives. With that being said, I have recently found the Classics very interesting, after all, a good book is one that leaves you staring at the ceiling at 3 a.m., one that tears your soul out.
-    Here are some of my favorite ones so far.
+<body>
+    <h1> Fill In your details below</h1>
+    <form>
+<label for="fname">FIRST NAME:</label> <br>        
+<input type="text" id="fname" name="fname" placeholder="First Name"> <br>
+<label for="lname">LAST NAME:</label> <br>     
+<input type="text" id="Lname" name="lname" placeholder="Last Name"> <br>
+<label for="email">EMAIL:</label> <br>
+<input type="email" id="email" name="email" required  placeholder="Your Email"> <br>
+<label for="password">PASSWORD:</label> <br>
+<input type="password" id="password" name="password"   required min="8 characters"> <br>
+<p> Select your gender</p>
+<input type="radio" id="gender" name="choose gender" value="Male"> 
+<label for="gender">Male</label> <br>
+<input type="radio" id="gender" name="choose gender" value="Female">
+<label for="gender">Female</label> <br>
+<input type="button" value="Submit">
 
-</p>
-
-<ol>
-    <li> The Secret History</li>
-    <li> The Great Gatsby </li>
-    <li> Crime and Punishment</li>
-    <li> Dead Poets  Society</li>
-</ol>
-
-<a href="https://www.penguin.co.uk/articles/2022/05/100-must-read-classic-books"> Link to other classic books</a>
-
-<img src="/images/classics.png" alt="examples of other classics">
+    </form>
 
 </body>
-
 </html>
